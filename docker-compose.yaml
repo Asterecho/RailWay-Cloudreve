@@ -1,6 +1,6 @@
 services:
-  sharelist:
+  cloudreve:
     build: .
     shm_size: 2.6gb
     ports:
-      - "5212:5212"
+      - "8080:8080"
